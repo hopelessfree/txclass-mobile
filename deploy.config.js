@@ -1,20 +1,21 @@
 module.exports = {
 	app: [
-    {
-    	name: 'txclass-mobile',
-    	script: 'server/index.js',
-    	env: {
-    		COMMON_VARIABLE: 'true'
-    	},
-    	env_production: {
-    		NODE_ENV: 'production'
-    	}
-    }
+		{
+			name: 'txclass-mobile',
+			script: 'server/index.js',
+			env: {
+				COMMON_VARIABLE: 'true'
+			},
+			env_production: {
+				NODE_ENV: 'production'
+			}
+		}
 	],
 
 	deploy: {
 		production: {
 			user: 'root',
+			password: 'Nothing0914.',
 			host: '47.96.134.225',
 			ref: 'origin/master',
 			repo: 'https://github.com/hopelessfree/txclass-mobile.git',
