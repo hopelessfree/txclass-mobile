@@ -21,7 +21,7 @@ module.exports = {
 			repo: 'https://github.com/hopelessfree/txclass-mobile.git',
 			path: '/www/txclass-mobile/production',
 			'pre-deploy': 'git fetch --all',
-			'post-deploy': 'npm install && npm run build && npm start && pm2 startOrRestart deploy.config.js --env production'
+			'post-deploy': 'yarn && yarn build && yarn start && pm2 startOrRestart deploy.config.js --env production'
 		}
 	}
 }
