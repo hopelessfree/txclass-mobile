@@ -16,7 +16,7 @@
 	}
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 	.error-board {
 		display: flex;
 		flex: 1;

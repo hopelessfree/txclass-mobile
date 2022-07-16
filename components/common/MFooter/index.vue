@@ -5,7 +5,7 @@
   </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .footer {
   padding: 0.15rem 0;
   background-color: #333;

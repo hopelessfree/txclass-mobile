@@ -48,7 +48,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 /deep/ .swiper-pagination-bullet-active {
   background-color: #fff;
 }

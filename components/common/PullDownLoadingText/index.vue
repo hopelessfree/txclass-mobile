@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .pull-down-loading {
   display: flex;
   flex-direction: row;

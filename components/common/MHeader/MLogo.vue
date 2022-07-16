@@ -2,7 +2,7 @@
   <div class="logo-wrap" />
 </template>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .logo-wrap {
   width: 1.6rem;
   height: 0.4rem;

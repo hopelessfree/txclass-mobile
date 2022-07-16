@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .recom-course-item {
   width: 50%;
   padding-left: .1rem;

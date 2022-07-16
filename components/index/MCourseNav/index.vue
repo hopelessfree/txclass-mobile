@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .nav-wrapper {
   display: flex;
   flex-direction: row;

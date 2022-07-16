@@ -23,11 +23,11 @@ module.exports = {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "swiper/css/swiper.min.css",
     "@/assets/styles/border.css",
     "@/assets/styles/common.css",
-    "@/assets/styles/iconfont.css",
     "@/assets/styles/resets.css",
-    "swiper/css/swiper.min.css",
+    "@/assets/styles/iconfont.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -65,5 +65,5 @@ module.exports = {
     port: 3008,
     host: '0.0.0.0',
   },
-  
+
 };

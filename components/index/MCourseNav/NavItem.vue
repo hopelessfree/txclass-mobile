@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .nav-item {
   width: 25%;
   padding-left: .1rem;

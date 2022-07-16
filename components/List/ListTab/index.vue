@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .list-tab {
   height: 0.35rem;
   background-color: #fff;

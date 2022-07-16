@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .teacher-item {
   width: 47.2%;
   padding-right: .1rem;

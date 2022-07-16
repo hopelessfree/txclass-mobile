@@ -17,7 +17,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 	.list-icon {
 		display: flex;
 		width: .44rem;
