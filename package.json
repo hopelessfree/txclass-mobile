@@ -7,8 +7,9 @@
     "build": "nuxt build && node upload_source.js",
     "start": "cross-env NODE_ENV=production pm2 start server/index.js",
     "generate": "nuxt generate",
+    "deploy": "pm2 deploy deploy.config.js production",
     "setup": "pm2 deploy deploy.config.js production setup",
-    "deploy": "pm2 deploy deploy.config.js production"
+    "update": "pm2 deploy deploy.config.js production update"
   },
   "dependencies": {
     "axios": "^0.19.2",
