@@ -53,16 +53,15 @@ export default {
 
   data() {
     return {
-      loadingText: PULL_DOWN_TEXT.ORIGIN
-    }
+      loadingText: PULL_DOWN_TEXT.ORIGIN,
+    };
   },
 
   async asyncData() {
     const data = await indexModel.getHomeData();
 
-
     return {
-      ...data
+      ...data,
     };
   },
 
@@ -76,26 +75,25 @@ export default {
         recomCourseData,
         collectionData,
         teacherData,
-      } = data
+      } = data;
 
-      this.sliderData = sliderData
-      this.navData = navData
-      this.linkData = linkData
-      this.recomCourseData = recomCourseData
-      this.collectionData = collectionData
-      this.teacherData = teacherData
-
+      this.sliderData = sliderData;
+      this.navData = navData;
+      this.linkData = linkData;
+      this.recomCourseData = recomCourseData;
+      this.collectionData = collectionData;
+      this.teacherData = teacherData;
     },
 
     async onPullDown(scroll) {
-      this.loadingText = PULL_DOWN_TEXT.PULLING
-      await this.getHomeData()
-      this.loadingText = PULL_DOWN_TEXT.FINISHED
-      scroll.finishPullDown()
+      this.loadingText = PULL_DOWN_TEXT.PULLING;
+      await this.getHomeData();
+      this.loadingText = PULL_DOWN_TEXT.FINISHED;
+      scroll.finishPullDown();
       setTimeout(() => {
-        this.loadingText = PULL_DOWN_TEXT.ORIGIN
+        this.loadingText = PULL_DOWN_TEXT.ORIGIN;
       }, 1000);
-    }
+    },
   },
 };
 </script>

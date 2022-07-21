@@ -1,4 +1,4 @@
-const ENV = require('./env');
+const { isPrd } = require('./env');
 
 module.exports = {
 	MYSQL_CONF: {
@@ -11,6 +11,6 @@ module.exports = {
 				idle: 10000
 			}
 		},
-		conf: ['txclass', 'root', ENV.isPrd ? 'Nothing0914.' : '123456']
+		conf: ['txclass', 'root', isPrd ? 'Nothing0914.' : '123456']
 	}
 };
