@@ -60,6 +60,11 @@ module.exports = {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     publicPath: 'http://source.songxianwei.com',
+    /*
+    ** You can extend webpack config here
+    */
+    extend(config, ctx) {
+    }
   },
 
   server: {
