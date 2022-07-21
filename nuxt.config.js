@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'universal',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "妙思维JS++前端开发官方网站 - WEB|JavaScript|Vue|React|Node",
