@@ -22,7 +22,6 @@ export default class HTTP {
 	}
 
 	axiosGet(options) {
-		console.log(URL.API_BASE_URL + options.url);
 		axios(URL.API_BASE_URL + options.url)
 			.then((res) => {
 				options.success(res.data);
