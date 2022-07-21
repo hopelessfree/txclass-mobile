@@ -11,6 +11,8 @@ const { getSliderData } = require('../services/Slider'),
 
 class Home {
   async getHomeData(ctx, next) {
+    console.log('process.env.NODE_ENV', process.env.NODE_ENV)
+
     const
       sliderData = await getSliderData(),
       collectionData = await Promise.all((await getCollectionData()).map(async item => item)),

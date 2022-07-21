@@ -5,8 +5,6 @@ const homeRouter = require('./routes/index')
 
 const app = new Koa()
 
-console.log('process.env.NODE_ENV', process.env.NODE_ENV)
-
 // Import and Set Nuxt.js options
 const config = require('../nuxt.config.js')
 config.dev = app.env !== 'production'
