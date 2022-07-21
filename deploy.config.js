@@ -8,7 +8,10 @@ module.exports = {
 			},
 			env_production: {
 				NODE_ENV: 'production'
-			}
+			},
+			env_development: {
+				NODE_ENV: 'development'
+			},
 		}
 	],
 
@@ -21,7 +24,7 @@ module.exports = {
 			path: '/www/txclass-mobile/production',
 			ssh_options: "StrictHostKeyChecking=no",
 			'pre-deploy': 'git fetch --all',
-			'post-deploy': 'yarn && yarn build && yarn start && pm2 startOrRestart deploy.config.js --env production'
+			'post-deploy': 'yarn && yarn build && pm2 startOrRestart deploy.config.js --env production'
 		}
 	}
 }
