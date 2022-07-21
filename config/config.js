@@ -2,7 +2,7 @@ const URL = {
 	TX_CLASS: '//ke.qq.com/course/',
 	IMG_BASE: '//tximg.songxianwei.com/',
 	API_BASE_URL: process.env.NODE_ENV === 'production'
-		? 'http://txclass-mobile.songxianwei/'
+		? 'http://txclass-mobile.songxianwei/api'
 		: 'http://localhost:3008/'
 }
 
