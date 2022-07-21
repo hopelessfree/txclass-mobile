@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "pm2 startOrRestart deploy.config.js --env development",
-    "build": "nuxt build && node upload_source.js",
+    "build": "cross-env NODE_ENV=production nuxt build && node upload_source.js",
     "start": "cross-env NODE_ENV=production pm2 start server/index.js",
     "generate": "nuxt generate",
     "deploy": "pm2 deploy deploy.config.js production",
