@@ -1,3 +1,3 @@
 module.exports = {
-	IMG_BASE_URL: '//tximg.jsplusplus.com/'
+	IMG_BASE_URL: '//tximg.songxianwei.com/'
 }

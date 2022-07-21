@@ -2,7 +2,7 @@ const env = require('./env'),
       isPrd = env.isPrd;
 
 const URL = {
-	SOURCE: isPrd ? '//source.jsplusplus.com/' : '//localhost:3300/'
+	SOURCE: isPrd ? '//txclass-source.songxianwei.com/' : '//localhost:3300/'
 }
 
 module.exports = {
